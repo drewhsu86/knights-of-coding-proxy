@@ -14,5 +14,7 @@ I won't into detail, especially because of how small this app is, but the main d
 Further technical details can simply found within the code, because it only consists of one file, [server.js](https://github.com/drewhsu86/knights-of-coding-proxy/blob/master/server.js).
 
 ## Notes 
+
 *Only requires Express and Axios packages. 
+
 *Three different routes exist for the three different types of API call URL structures I was using from Codewars. If one wanted to make ANY API call from Codewars, they would need to include routes that correctly call the endpoint in the Codewars API that were not included here.
