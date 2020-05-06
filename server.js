@@ -6,6 +6,11 @@ const axios = require('axios');
 
 const app = express();
 
+// root 
+app.get('/', (req, res) => {
+  res.send('This is root.')
+})
+
 // get request from my codewars app
 // becomes api request to codewars 
 const url = `https://www.codewars.com/api/v1/`
