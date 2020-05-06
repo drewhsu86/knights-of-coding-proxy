@@ -30,7 +30,7 @@ function axiosCall(newURL, res) {
   })
     .then((response) => {
       // console.log(response)
-      res.json({ data: response.data })
+      res.json(response.data)
     })
     .catch((er) => {
       // console.log(er)
