@@ -15,6 +15,6 @@ Further technical details can simply found within the code, because it only cons
 
 ## Notes 
 
-*Only requires Express and Axios packages. 
+1. Only requires Express and Axios packages. 
 
-*Three different routes exist for the three different types of API call URL structures I was using from Codewars. If one wanted to make ANY API call from Codewars, they would need to include routes that correctly call the endpoint in the Codewars API that were not included here.
+2. Three different routes exist for the three different types of API call URL structures I was using from Codewars. If one wanted to make ANY API call from Codewars, they would need to include routes that correctly call the endpoint in the Codewars API that were not included here.
