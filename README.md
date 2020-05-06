@@ -1,7 +1,7 @@
 # knights-of-coding-proxy
 
 ## TL:DR
-Adds {'Access-Control-Allow-Origin', '*'} header to Codewars API requests to avoid CORS error 
+Adds {'Access-Control-Allow-Origin': '*'} header to Codewars API requests to avoid CORS error 
 
 ## Summary 
 I create a React App that uses the Codewars API but when viewing on the browser, my API calls were returning a CORS error due to the lack of an 'Access-Control-Allow-Origin' header. Thanks to the following post about ways to alleviate this situation, found at [this medium article](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9), I decided to implement the third recommendation which was to build my own small proxy server.
