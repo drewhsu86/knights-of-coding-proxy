@@ -8,7 +8,17 @@ const app = express();
 
 // root 
 app.get('/', (req, res) => {
-  res.send('This is root.')
+  res.json({
+    readMe: [
+      'This is root!',
+      'Routes match url paths stemming from Codewars API, "https://www.codewars.com/api/v1/".',
+      'All routes are GET.',
+      'Route 0: "/" ROOT',
+      'Route 1: "/users/:username" LOOKUP CODEWARS ACCOUNT',
+      'Route 2: "/users/:username/code-challenges/completed" LOOKUP ACCOUNT\'S COMPLETED CODE CHALLENGES',
+      'Route 3: "/code-challenges/:id" LOOKUP CODE-CHALLENGE BY ID'
+    ]
+  })
 })
 
 // get request from my codewars app
